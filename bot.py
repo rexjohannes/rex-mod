@@ -2,7 +2,7 @@ import discord
 import asyncio
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix='?')
+bot = commands.Bot(command_prefix=':')
 
 @bot.event
 async def on_ready():
@@ -105,4 +105,4 @@ async def say(ctx, *, message:str):
 #  await ctx.send("Commands: \nhelp - View this message.")
   
   
-bot.run('NjMyNDkwMTE4NTQ4MDI5NDYx.XaGKeQ.6IhsKDNsmGSvd6g8E8bcC8PZPBE')
+bot.run('NjMyNTM5NjgwOTU2NzQzNjgy.XaG4xg.uCp0iUMetGQMBVRIvpK0-CD4lpk')
